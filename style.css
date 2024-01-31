@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	padding: 0;
@@ -20,13 +19,13 @@ p {
 }
 
 #container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    padding: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	width: 100%;
+	padding: 30px;
 }
 
 .button button {
@@ -50,16 +49,16 @@ p {
 }
 
 .card {
-    width: 260px;
-    height: 300px;
-    overflow: hidden;
-    background-color: lightgray;
-    border-radius: 1rem;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    padding: 0;
-    margin: 0;
+	width: 260px;
+	height: 300px;
+	overflow: hidden;
+	background-color: lightgray;
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding: 0;
+	margin: 0;
 	cursor: pointer;
 
 	transition: all 0.5s ease;
@@ -70,11 +69,11 @@ p {
 }
 
 .card div {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    width: 100%;
-    height: 20%;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 100%;
+	height: 20%;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
